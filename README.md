@@ -9,11 +9,10 @@ This repository provides all scripts, configuration files, and workflows used in
 The analysis integrates multiple components spanning emission modeling, climate response, temperature downscaling, and health impact assessment.
 
 **Core components:**
-1. **GCAM emission–trade modeling** — simulation of regional NDC implementation and carbon leakage under various Shared Socioeconomic Pathways (SSP1–SSP5).  
-2. **Climate response modeling (OSCAR v3.2)** — ensemble simulations quantifying temperature response, permafrost, and wildfire carbon feedbacks.  
+1. **GCAM inputs** — simulation of regional NDC implementation and carbon leakage under various Shared Socioeconomic Pathways (SSP1–SSP5).  
+2. **OSCAR v3.2** — ensemble simulations quantifying temperature response, permafrost, and wildfire carbon feedbacks.  
 3. **GMST-TST downscaling** — machine learning model reconstructing daily near-surface temperature fields at 1°×1° resolution from annual GSAT anomalies.  
-4. **Heat-health analysis** — estimation of population exposure to heatwaves and assessment of inequality under different policy and leakage scenarios.  
-5. **Amplification factor analysis** — derivation of a nonlinear mapping between abatement strength and avoided warming to quantify the climate impact intensity of leakage.
-
+4. **Heat-health analysis** — estimation of population exposure to heatwaves and assessment of inequality under different policy and leakage scenarios.
+5. 
 **Note:**
 The data and files will be uploaded after the paper is accepted
